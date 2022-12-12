@@ -6511,7 +6511,7 @@ let cards = [
     pageLink: './Art/cpk3/index.html',
     imageLink: './Art/cpk3/Ducky.gif',
     author: 'cpk3',
-    githubLink: 'https://github.com/cpk3'
+    githubLink: 'https:/github.com/cpk3'
   },
   {
     pageLink: '.Art/yashraj2003e/index.html',
@@ -6525,6 +6525,12 @@ let cards = [
     imageLink: './Art/marion/smiles.gif',
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
+  },
+  {
+    artName: 'Up & Down',
+    pageLink: './Art/fabio-silva/index.html',
+    author: 'Fabio',
+    githubLink: 'https://github.com/phanix'
   },
 ];
 
