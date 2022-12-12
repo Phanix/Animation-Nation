@@ -1,5 +1,5 @@
 .card{
-    animation-duration: 3s;
+    animation-duration: 5s;
     
     animation-iteration-count: infinite;
 }
@@ -15,11 +15,24 @@
     display: flex;
 }
  p{
-    color: white;
+    color: green;
     font-size: large;
     text-align: center;
     padding: 10px;  
  }
+ .animate-p{
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+ }
+ 
+ @keyframes changeColor{
+    from{scale: 0.5;}
+    to{scale: 1;}
+
+ }
+
 @keyframes moveDown{
     from{transform: translateY(0px)}
     to{transform: translateY(100vh)}
